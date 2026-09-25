@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bb9457;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 40px;
+    background-color: #e0c18d;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom:15px ;
+    letter-spacing: 2px;
+}
+header p{
+    font-size: 20px;
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
+
+main{
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+section{
+    background-color: #e0c18d;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+
+section h2{
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #7f4f24;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li {
+    padding: 10px;
+    margin: 5px;
+    background: #bb9457;
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+.menu li:hover{
+    background-color: #a68a64;
+    color: #7f4f24;
+    transition: 0.4s ease;
+}
+
+section p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+section a{
+    font-size: 32px;
+    color: #7f4f24;
+    transition: 0.3s ease;
+}
+
+section a:hover{
+    color: white;
+    
+}
+
+.about p {
+    line-height: 1.6;
+    font-size: 20px;
+    max-width: 450px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input,
+form textarea{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+form button{
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #7f4f24;
+    border-radius:12px;
+    background-color: #bb9457;
+    color: #7f4f24;
+    transition: 0.3s ease;
+}
+form button:hover{
+    background-color: #7f4f24;
+    color: #bb9457;
+}
