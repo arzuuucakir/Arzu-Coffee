@@ -56,12 +56,12 @@ section h2{
     background: #bb9457;
     border-radius: 10px;
     text-align: center;
+    transition: 0.4s ease;
 }
- 
-.menu li:hover{
+
+.menu li:hover {
     background-color: #a68a64;
     color: #7f4f24;
-    transition: 0.4s ease;
 }
 
 section p{
@@ -112,4 +112,64 @@ form button{
 form button:hover{
     background-color: #7f4f24;
     color: #bb9457;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    main {
+        width: 100%;
+        max-width: none;
+        margin: 20px 0;
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 20px 15px;
+        margin-bottom: 15px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .about p {
+        font-size: 17px;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto 20px;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
 }
